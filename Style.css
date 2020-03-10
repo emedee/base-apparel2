@@ -1,0 +1,165 @@
+@media (max-width: 575.98px) {
+    body{
+        margin: 0px !important;
+        width: auto !important;
+    }
+    .body{
+        background: none !important;
+        margin: 0px -2px !important;
+        height: auto !important;
+        width: auto !important;
+        background-color: hsl(0, 100%, 98%) !important;
+    }
+    .logo{
+        padding: 30px 0px 10px 40px;
+    }
+    .right-side{
+        display: none !important;
+    }
+    .left-side{
+        padding: 0px !important;
+        width: auto !important;
+    }
+    .mobile-hero{
+        display: block !important;
+        width: auto !important;
+        margin-top: 20px;
+    }
+    .we{
+        margin-top: 70px !important;
+        text-align: center;
+    }
+    .coming-soon{
+        text-align: center;
+        letter-spacing: 10px !important;
+    }
+    .fellow-shoppers{
+        text-align: center;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .row{
+        text-align: center;
+    }
+    #my-email{
+        padding: 10px 30px 10px 30px !important;
+        width: 230px !important;
+        margin-left: 30px !important;
+        margin-right: 25px !important;
+    }
+    #my-password{
+        padding: 10px 30px 10px 30px !important;
+        width: 230px !important;
+        margin-left: 30px !important;
+        margin-right: 25px !important;
+    }
+    .error-icon{
+        margin-left: -120px !important;
+        margin-right: 90px;
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    button{
+        padding: 15px 30px 15px;
+        font-size: 8px !important;
+        margin-left: -80px;
+        width: 80px;
+    }
+    .valid-email{
+        margin: 5px 0px 200px 63px !important;
+    }
+}
+body{
+    margin: -0.3px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: auto;
+    background: url(./images/bg-pattern-desktop.svg);
+    background-size: contain;
+    background-color: hsl(0, 100%, 98%);
+}
+.mobile-hero{
+    display: none;
+}
+.left-side{
+    padding: 70px 0px 70px 150px;
+    width: 400px;
+}
+.right-side{
+    margin-left: auto;
+}
+.hero-desktop{
+    width: 750px;
+    height: 100vh;
+}
+.we{
+    margin: 150px 0px 0px;
+    font-size: 50px;
+    font-family: helvetica;
+    letter-spacing: 10px;
+    color: hsl(0, 36%, 70%);
+}
+.coming-soon{
+    font-size: 55px;
+    margin: 0px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    color: hsl(0, 6%, 24%);
+}
+.fellow-shoppers{
+    margin: 30px 0px;
+    line-height: 1.5;
+    font-family: verdana;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: hsl(0, 36%, 70%);
+}
+#my-email{
+    padding: 20px 30px 20px 30px;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 36%, 70%);
+}
+#my-password{
+    padding: 20px 30px 20px 30px;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 36%, 70%);
+    margin-top: 10px;
+}
+.error-icon{
+    margin-left: -80px;
+    margin-right: 90px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    display: none;
+}
+button{
+    padding: 15px 30px 15px;
+    margin-left: -80px;
+    border-radius: 50px;
+    border: none;
+    width: 80px;
+    background: hsl(0, 74%, 74%);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background: hsl(0, 80%, 86%);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.valid-email{
+    margin: 10px 0px 0px 30px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: verdana;
+    letter-spacing: 0.6px;
+}
